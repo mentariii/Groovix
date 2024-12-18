@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.mentarii.groovix.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_users"
+        android:name="com.mentarii.groovix.ui.gallery.GalleryFragment"
+        android:label="@string/menu_users"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_playlist"
+        android:name="com.mentarii.groovix.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_playlist"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_artist"
+        android:name="com.mentarii.groovix.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_album"
+        android:name="com.mentarii.groovix.ui.gallery.GalleryFragment"
+        android:label="@string/menu_users"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_genre"
+        android:name="com.mentarii.groovix.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_playlist"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>

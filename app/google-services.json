@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "831817043215",
+    "project_id": "groovix-6ff68",
+    "storage_bucket": "groovix-6ff68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831817043215:android:555eaaa90a0b88a119c27a",
+        "android_client_info": {
+          "package_name": "com.mentarii.groovix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831817043215-pmms34en0am676jpkod5hd0l2829atao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0qSVvFaQuJIxOaPxE6LcXAvp0YRqosjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831817043215-fij7793f5ctn5jclo83ddamdq27301a1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
